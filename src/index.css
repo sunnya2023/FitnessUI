@@ -1,0 +1,72 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+:root {
+  /* --primary-hue: 210;
+  --gray-hue: 240;
+  --color-primary: hsl(210, 100%, 50%); */
+  --color-primary: #0080ff;
+  --color-secondary: #ffb116;
+  --color-gray-100: hsl(240, 47%, 94%);
+  --color-gray-200: hsl(240, 26%, 75%);
+  --color-gray-300: hsl(240, 24%, 64%);
+  --color-gray-400: hsl(240, 16%, 41%);
+  --color-gray-500: hsl(240, 44%, 25%);
+  --color-gray-600: hsl(240, 48%, 15%);
+
+  --container-width-lg: 80%;
+  --container-width-md: 90%;
+
+  /* --transition: all 500ms ease; */
+}
+
+/* General style */
+body {
+  font-family: "Montserrat", sans-serif;
+  color: var(--color-gray-200);
+  line-height: 1.7;
+  overflow-x: hidden;
+  background: var(--color-gray-600);
+}
+
+.container {
+  width: 80%;
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  line-height: 1.2;
+  color: var(--color-gray-100);
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+a {
+  color: var(--color-gray-100);
+}
+
+img {
+  display: block;
+  object-fit: cover;
+  width: 100%;
+}

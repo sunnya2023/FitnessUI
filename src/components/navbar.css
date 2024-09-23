@@ -1,0 +1,145 @@
+nav {
+  height: 5rem;
+  width: 100vw;
+  background: var(--color-primary);
+  display: grid;
+  place-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 99;
+}
+
+.nav_toggle-btn {
+  display: none;
+}
+
+.nav_container {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+.logo {
+  width: 7rem;
+}
+
+.nav_links {
+  display: flex;
+  gap: 3.5rem;
+  align-items: center;
+}
+
+.nav_links a {
+  transition: all 500ms ease;
+}
+.nav_links a:hover {
+  color: var(--color-secondary);
+}
+
+.active-nav {
+  position: relative;
+}
+
+.active-nav::after {
+  content: "";
+  position: absolute;
+  display: block;
+  background: var(--color-primary);
+  width: 1.2rem;
+  height: 1.2rem;
+  margin-top: 0.9rem;
+  left: calc(50% - 0.7rem);
+  transform: rotate(45deg);
+}
+
+/* MEDIA QUERIES\ */
+
+@media (max-width: 1024px) {
+  nav {
+    background: red;
+  }
+  .nav_toggle-btn {
+    display: inline-block;
+    background: transparent;
+    cursor: pointer;
+    font-size: 1.8rem;
+  }
+
+  .nav_toggle-btn svg {
+    color: var(--color-gray-100);
+  }
+
+  .nav_links {
+    position: absolute;
+    top: 100%; /*부모요소 높이 만큼 아래에 위치*/
+    right: 0;
+    flex-direction: column;
+    gap: 0;
+    perspective: 400px;
+  }
+
+  .active-nav,
+  .active-nav::after {
+    display: none;
+  }
+
+  .nav_links li {
+    height: 4rem;
+    width: 100%;
+    box-shadow: -2rem 2rem 5rem rgba(0, 0, 0, 0.4);
+    animation: navAnimation 600ms ease forwards;
+    transform: rotateX(90deg);
+    opacity: 0;
+    transform-origin: top;
+  }
+
+  .nav_links li:nth-child(2) {
+    animation-duration: 200ms;
+  }
+  .nav_links li:nth-child(3) {
+    animation-duration: 400ms;
+  }
+  .nav_links li:nth-child(4) {
+    animation-duration: 600ms;
+  }
+  .nav_links li:nth-child(5) {
+    animation-duration: 800ms;
+  }
+  .nav_links li:nth-child(6) {
+    animation-duration: 1s;
+  }
+  /* .nav_links li:nth-child(7) {
+    animation-duration: 1.2s;
+  } */
+
+  @keyframes navAnimation {
+    /* from {
+      transform: rotateX(90deg);
+      opacity: 0;
+      transform-origin: top;
+    } */
+    to {
+      transform: rotateX(0);
+      opacity: 1;
+    }
+  }
+
+  .nav_links li a {
+    background: var(--color-primary);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 1rem 5rem 1rem 3rem;
+  }
+
+  .show__nav {
+    display: flex;
+  }
+  .hide__nav {
+    display: none;
+  }
+}
