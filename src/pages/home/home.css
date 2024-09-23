@@ -1,0 +1,16 @@
+.main__header {
+  width: 100vw;
+  height: 100vh;
+  margin-top: 3rem;
+  display: grid;
+  place-items: center;
+}
+
+.main__header-container {
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: space-between;
+  align-items: center;
+  gap: 6rem;
+}
