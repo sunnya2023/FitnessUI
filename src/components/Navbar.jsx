@@ -11,7 +11,7 @@ const Navbar = () => {
   return (
     <nav>
       <div className="container nav_container">
-        <Link to="/" className="logo">
+        <Link to="/" className="logo" onClick={() => setIsNavShowing(false)}>
           <img src={Logo} alt="Nav logo" />
         </Link>
         <ul className={`nav_links ${isNavShowing ? "show__nav" : "hide__nav"}`}>
@@ -21,6 +21,7 @@ const Navbar = () => {
                 <NavLink
                   to={path}
                   className={({ isActive }) => (isActive ? "active-nav" : "")}
+                  onClick={() => setIsNavShowing((prev) => !prev)}
                 >
                   {name}
                 </NavLink>
@@ -30,7 +31,7 @@ const Navbar = () => {
         </ul>
         <button
           className="nav_toggle-btn"
-          onClick={() => setIsNavShowing(!isNavShowing)}
+          onClick={() => setIsNavShowing((prev) => !prev)}
         >
           {isNavShowing ? <CgClose /> : <FaBars />}
         </button>
