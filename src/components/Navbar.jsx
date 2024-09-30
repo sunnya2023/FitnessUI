@@ -1,7 +1,7 @@
 import { Link, NavLink } from "react-router-dom";
 import "./navbar.css";
 import Logo from "../images/logo.png";
-import { links } from "../data";
+import { links } from "../data.jsx";
 import { FaBars } from "react-icons/fa6";
 import { CgClose } from "react-icons/cg";
 import { useState } from "react";

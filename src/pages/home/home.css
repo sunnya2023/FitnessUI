@@ -1,6 +1,6 @@
 .main__header {
   width: 100vw;
-  height: 100vh;
+  height: calc(100vh - 3rem);
   margin-top: 3rem;
   display: grid;
   place-items: center;
@@ -13,4 +13,66 @@
   justify-content: space-between;
   align-items: center;
   gap: 6rem;
+}
+
+.main__header-left {
+  margin-top: -3rem;
+}
+
+.main__header-left h4 {
+  color: var(--color-secondary);
+  font-weight: 400;
+  margin-bottom: 1rem;
+}
+
+.main__header-left p {
+  margin: 1rem 0 3.5rem;
+  font-size: 1.1rem;
+}
+
+.main__header-right {
+  display: grid;
+  place-items: center;
+  position: relative;
+}
+
+.main__header-circle {
+  width: 25rem;
+  height: 25rem;
+  background: linear-gradient(45deg, var(--color-secondary), transparent);
+  border-radius: 50%;
+  position: absolute;
+  transition: all 0.3s ease;
+}
+
+.main__header-image {
+  position: relative;
+}
+
+.main__header-right:hover .main__header-circle {
+  filter: blur(15px);
+}
+
+/* Programs */
+.programs {
+  margin-top: 4rem;
+}
+
+.programs__wrapper {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 3rem;
+  margin-top: 4rem;
+}
+
+.programs__program a {
+  margin-top: 2.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.programs__program:hover a {
+  background: var(--color-secondary);
+  color: var(--color-gray-600);
 }
