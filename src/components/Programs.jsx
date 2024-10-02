@@ -3,12 +3,13 @@ import { programs } from "../data.jsx";
 import Card from "../UI/Card";
 import { IoMdArrowDropright } from "react-icons/io";
 import SectionHead from "./SectionHead";
+import { FaCrown } from "react-icons/fa";
 
 const Programs = () => {
   return (
     <section className="programs">
       <div className="container programs__container">
-        <SectionHead title="Programs" />
+        <SectionHead icon={<FaCrown />} title="Programs" />
 
         <div className="programs__wrapper">
           {programs.map(({ id, icon, title, info, path }) => {
