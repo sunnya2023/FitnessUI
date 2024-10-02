@@ -139,3 +139,62 @@
 .faq p {
   margin-top: 1.5rem;
 }
+
+/* =======testimonials============ */
+.testimonials {
+  width: 50rem;
+  margin-inline: auto;
+}
+
+.testimonials__head {
+  justify-content: center;
+}
+
+.card.testimonial {
+  margin-top: 5rem;
+  text-align: left;
+  position: relative;
+}
+.testimonial__avatar {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 1.5rem;
+  position: absolute;
+  top: -2rem;
+  left: calc(50% - 2rem);
+  overflow: hidden;
+  box-shadow: 0 1rem 2rem rgba(26, 26, 54, 0.4);
+  border: 2px solid transparent;
+  transition: all 0.5s ease;
+}
+.testimonial:hover .testimonial__avatar {
+  border-radius: 50%;
+  border-color: var(--color-gray-400);
+}
+.testimonial__quote {
+  font-style: italic;
+  margin: 1rem 0 2rem;
+}
+.testimonial__title {
+  margin-top: 0.3rem;
+}
+.testimonials__btn-container {
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 2.5rem auto 0;
+  gap: 1rem;
+}
+
+.testimonials__btn {
+  background: transparent;
+  cursor: pointer;
+}
+
+.testimonials__btn svg {
+  fill: var(--color-primary);
+  width: 3rem;
+  height: 3rem;
+  font-size: 1.8rem;
+}

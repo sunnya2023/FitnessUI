@@ -1,4 +1,11 @@
 import { SiOpenaigym } from "react-icons/si";
+import avatar1 from "./images/avatar1.jpg";
+import avatar2 from "./images/avatar2.jpg";
+import avatar3 from "./images/avatar3.jpg";
+import avatar4 from "./images/avatar4.jpg";
+import avatar5 from "./images/avatar5.jpg";
+import avatar6 from "./images/avatar6.jpg";
+import avatar7 from "./images/avatar7.jpg";
 
 export const links = [
   {
@@ -121,5 +128,64 @@ export const faqs = [
     question: "Should I lift weights for strength training?",
     answer:
       "ipsum dolor sit amet consectetur adipisicing elit. Laudantium porro repellendus sequi eum asperiores temporibus commodi officia in rem quaerat!",
+  },
+];
+
+export const testimonials = [
+  {
+    id: 1,
+    name: "Diana Ayi",
+    quote:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae tempora cupiditate odit vel laudantium? Aut, nihil eaque. Earum?",
+    job: "Student",
+    avatar: avatar1,
+  },
+  {
+    id: 2,
+    name: "Daniel Vinyo",
+    quote:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae tempora cupiditate odit vel laudantium? Aut, nihil eaque. Earum?",
+    job: "Student",
+    avatar: avatar2,
+  },
+  {
+    id: 3,
+    name: "Diana Ayi",
+    quote:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae tempora cupiditate odit vel laudantium? Aut, nihil eaque. Earum?",
+    job: "Student",
+    avatar: avatar3,
+  },
+  {
+    id: 4,
+    name: "Diana Ayi",
+    quote:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae tempora cupiditate odit vel laudantium? Aut, nihil eaque. Earum?",
+    job: "Student",
+    avatar: avatar4,
+  },
+  {
+    id: 5,
+    name: "Diana Ayi",
+    quote:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae tempora cupiditate odit vel laudantium? Aut, nihil eaque. Earum?",
+    job: "Student",
+    avatar: avatar5,
+  },
+  {
+    id: 6,
+    name: "Diana Ayi",
+    quote:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae tempora cupiditate odit vel laudantium? Aut, nihil eaque. Earum?",
+    job: "Student",
+    avatar: avatar6,
+  },
+  {
+    id: 7,
+    name: "Diana Ayi",
+    quote:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae tempora cupiditate odit vel laudantium? Aut, nihil eaque. Earum?",
+    job: "Student",
+    avatar: avatar7,
   },
 ];
