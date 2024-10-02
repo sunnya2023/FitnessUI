@@ -84,3 +84,42 @@ export const values = [
     desc: "Placeat quidem facere dicta modi? Pariatur exercitationem illum",
   },
 ];
+
+export const faqs = [
+  {
+    id: 1,
+    question: "How often should I exercise?",
+    answer:
+      "ipsum dolor sit amet consectetur adipisicing elit. Laudantium porro repellendus sequi eum asperiores temporibus commodi officia in rem quaerat!",
+  },
+  {
+    id: 2,
+    question: "What time of day is best to work out?",
+    answer:
+      "iconsectetur adipisicing elit. Laudantium porro repellendus sequi eum asperiores temporibus commodi officia in rem quaerat!",
+  },
+  {
+    id: 3,
+    question: "How long should my workouts be?",
+    answer:
+      " Laudantium porro repellendus sequi eum asperiores temporibus commodi officia in rem quaerat! vel quaerat ratione, animi totam impedit quibusdam quia laborum recusandae voluptatem, culpa mollitia quae!",
+  },
+  {
+    id: 4,
+    question: "Do I need warm up before my workout?",
+    answer:
+      "ipsum dolor sit amet consectetur adipisicing elit. Laudantium porro repellendus sequi eum asperiores temporibus commodi officia in rem quaerat!",
+  },
+  {
+    id: 5,
+    question: "Should I do strength fraining, cardio or both?",
+    answer:
+      "ipsum dolor sit amet consectetur adipisicing elit. Laudantium porro repellendus sequi eum asperiores temporibus commodi officia in rem quaerat!",
+  },
+  {
+    id: 6,
+    question: "Should I lift weights for strength training?",
+    answer:
+      "ipsum dolor sit amet consectetur adipisicing elit. Laudantium porro repellendus sequi eum asperiores temporibus commodi officia in rem quaerat!",
+  },
+];
