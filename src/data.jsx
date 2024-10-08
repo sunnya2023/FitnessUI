@@ -1,3 +1,4 @@
+//
 import { SiOpenaigym } from "react-icons/si";
 import avatar1 from "./images/avatar1.jpg";
 import avatar2 from "./images/avatar2.jpg";
