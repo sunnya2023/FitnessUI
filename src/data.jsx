@@ -206,10 +206,10 @@ export const testimonials = [
   },
   {
     id: 7,
-    name: "Diana Ayi",
+    name: "Nana Yaa Dankwa",
     quote:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae tempora cupiditate odit vel laudantium? Aut, nihil eaque. Earum?",
-    job: "Student",
+    job: "Phamacist",
     avatar: avatar7,
   },
 ];
@@ -279,7 +279,7 @@ export const trainers = [
     id: 6,
     image: Trainer6,
     name: "Wayne Carter",
-    job: "Body Compositon Trainer",
+    job: "Physical Intelligence Trainer",
     socials: [
       "https://www.instagram.com/",
       "https://kr.linkedin.com/",
@@ -350,5 +350,188 @@ export const gallery = [
   {
     id: 15,
     image: Gallery15,
+  },
+];
+
+export const plans = [
+  {
+    id: 1,
+    name: "Silver Package",
+    desc: "This package is perfect for begginers who need constant help",
+    price: 29.99,
+    features: [
+      {
+        feature: "First Feature",
+        available: true,
+      },
+      {
+        feature: "Second Feature",
+        available: true,
+      },
+      {
+        feature: "Third Feature",
+        available: true,
+      },
+      {
+        feature: "Fourth Feature",
+        available: true,
+      },
+      {
+        feature: "Fifth Feature",
+        available: true,
+      },
+      {
+        feature: "Fifth Feature Plus",
+        available: false,
+      },
+      {
+        feature: "Sixth Feature",
+        available: false,
+      },
+      {
+        feature: "Seventh Feature",
+        available: false,
+      },
+      {
+        feature: "Seventh Feature Plus",
+        available: false,
+      },
+      {
+        feature: "Eight Feature",
+        available: false,
+      },
+      {
+        feature: "Ninth Feature",
+        available: false,
+      },
+      {
+        feature: "Tenth Feature",
+        available: false,
+      },
+      {
+        feature: "Eleventh Feature",
+        available: false,
+      },
+    ],
+  },
+  {
+    id: 2,
+    name: "Gold Package",
+    desc: "This is the perfect package for begginers who know what their doing",
+    price: 49.99,
+    features: [
+      {
+        feature: "First Feature",
+        available: true,
+      },
+      {
+        feature: "Second Feature",
+        available: true,
+      },
+      {
+        feature: "Third Feature",
+        available: true,
+      },
+      {
+        feature: "Fourth Feature",
+        available: true,
+      },
+      {
+        feature: "Fifth Feature",
+        available: true,
+      },
+      {
+        feature: "Fifth Feature Plus",
+        available: true,
+      },
+      {
+        feature: "Sixth Feature",
+        available: true,
+      },
+      {
+        feature: "Seventh Feature",
+        available: true,
+      },
+      {
+        feature: "Seventh Feature Plus",
+        available: true,
+      },
+      {
+        feature: "Eight Feature",
+        available: false,
+      },
+      {
+        feature: "Ninth Feature",
+        available: false,
+      },
+      {
+        feature: "Tenth Feature",
+        available: false,
+      },
+      {
+        feature: "Eleventh Feature",
+        available: false,
+      },
+    ],
+  },
+  {
+    id: 3,
+    name: "Platinum Package",
+    desc: "This is the perfect package for busy people who need home service",
+    price: 89.99,
+    features: [
+      {
+        feature: "First Feature",
+        available: true,
+      },
+      {
+        feature: "Second Feature",
+        available: true,
+      },
+      {
+        feature: "Third Feature",
+        available: true,
+      },
+      {
+        feature: "Fourth Feature",
+        available: true,
+      },
+      {
+        feature: "Fifth Feature",
+        available: true,
+      },
+      {
+        feature: "Fifth Feature Plus",
+        available: true,
+      },
+      {
+        feature: "Sixth Feature",
+        available: true,
+      },
+      {
+        feature: "Seventh Feature",
+        available: true,
+      },
+      {
+        feature: "Seventh Feature Plus",
+        available: true,
+      },
+      {
+        feature: "Eight Feature",
+        available: true,
+      },
+      {
+        feature: "Ninth Feature",
+        available: true,
+      },
+      {
+        feature: "Tenth Feature",
+        available: true,
+      },
+      {
+        feature: "Eleventh Feature",
+        available: true,
+      },
+    ],
   },
 ];
