@@ -1,6 +1,6 @@
 import React from "react";
 
-const SubHeader = ({ title, image, childeren }) => {
+const SubHeader = ({ title, image, children }) => {
   return (
     <header className="header">
       <div className="header__container">
@@ -9,7 +9,7 @@ const SubHeader = ({ title, image, childeren }) => {
         </div>
         <div className="header__content">
           <h2>{title}</h2>
-          <p>{childeren}</p>
+          <p>{children}</p>
         </div>
       </div>
     </header>
