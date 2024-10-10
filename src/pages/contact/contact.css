@@ -1,0 +1,37 @@
+.contact__container {
+  display: grid;
+  place-items: center;
+}
+
+.contact__wrapper {
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.contact__wrapper a {
+  background: var(--color-primary);
+  padding: 1.5rem 2rem;
+  border-radius: 1.5rem;
+  border: 2px solid transparent;
+  font-size: 2rem;
+  transition: all 0.5s ease;
+}
+
+.contact__wrapper a:hover {
+  background: transparent;
+  border-color: var(--color-gray-100);
+}
+
+/* MEDIA QUERIES (small screen) */
+@media (max-width: 600px) {
+  .contact__wrapper {
+    gap: 1.5rem;
+  }
+  .contact__wrapper a {
+    padding: 1rem 1.5rem;
+    font-size: 1.2rem;
+    border-radius: 1rem;
+  }
+}
