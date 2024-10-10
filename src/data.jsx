@@ -8,6 +8,29 @@ import avatar5 from "./images/avatar5.jpg";
 import avatar6 from "./images/avatar6.jpg";
 import avatar7 from "./images/avatar7.jpg";
 
+import Trainer1 from "./images/trainer1.jpg";
+import Trainer2 from "./images/trainer2.jpg";
+import Trainer3 from "./images/trainer3.jpg";
+import Trainer4 from "./images/trainer4.jpg";
+import Trainer5 from "./images/trainer5.jpg";
+import Trainer6 from "./images/trainer6.jpg";
+
+import Gallery1 from "./images/gallery1.jpg";
+import Gallery2 from "./images/gallery2.jpg";
+import Gallery3 from "./images/gallery3.jpg";
+import Gallery4 from "./images/gallery4.jpg";
+import Gallery5 from "./images/gallery5.jpg";
+import Gallery6 from "./images/gallery6.jpg";
+import Gallery7 from "./images/gallery7.jpg";
+import Gallery8 from "./images/gallery7.jpg";
+import Gallery9 from "./images/gallery9.jpg";
+import Gallery10 from "./images/gallery10.jpg";
+import Gallery11 from "./images/gallery11.jpg";
+import Gallery12 from "./images/gallery12.jpg";
+import Gallery13 from "./images/gallery13.jpg";
+import Gallery14 from "./images/gallery14.jpg";
+import Gallery15 from "./images/gallery15.jpg";
+
 export const links = [
   {
     name: "Home",
@@ -188,5 +211,144 @@ export const testimonials = [
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae tempora cupiditate odit vel laudantium? Aut, nihil eaque. Earum?",
     job: "Student",
     avatar: avatar7,
+  },
+];
+
+export const trainers = [
+  {
+    id: 1,
+    image: Trainer1,
+    name: "Shatta Wale",
+    job: "Body Compositon Trainer",
+    socials: [
+      "https://www.instagram.com/",
+      "https://kr.linkedin.com/",
+      "https://www.facebook.com/?locale=ko_KR",
+      "https://x.com/?lang=ko",
+    ],
+  },
+  {
+    id: 2,
+    image: Trainer2,
+    name: "Shatta Wale",
+    job: "Body Compositon Trainer",
+    socials: [
+      "https://www.instagram.com/",
+      "https://kr.linkedin.com/",
+      "https://www.facebook.com/?locale=ko_KR",
+      "https://x.com/?lang=ko",
+    ],
+  },
+  {
+    id: 3,
+    image: Trainer3,
+    name: "Shatta Wale",
+    job: "Body Compositon Trainer",
+    socials: [
+      "https://www.instagram.com/",
+      "https://kr.linkedin.com/",
+      "https://www.facebook.com/?locale=ko_KR",
+      "https://x.com/?lang=ko",
+    ],
+  },
+  {
+    id: 4,
+    image: Trainer4,
+    name: "Shatta Wale",
+    job: "Body Compositon Trainer",
+    socials: [
+      "https://www.instagram.com/",
+      "https://kr.linkedin.com/",
+      "https://www.facebook.com/?locale=ko_KR",
+      "https://x.com/?lang=ko",
+    ],
+  },
+  {
+    id: 5,
+    image: Trainer5,
+    name: "Diana Ayi",
+    job: "Circuit Trainer",
+    socials: [
+      "https://www.instagram.com/",
+      "https://kr.linkedin.com/",
+      "https://www.facebook.com/?locale=ko_KR",
+      "https://x.com/?lang=ko",
+    ],
+  },
+  {
+    id: 6,
+    image: Trainer6,
+    name: "Wayne Carter",
+    job: "Body Compositon Trainer",
+    socials: [
+      "https://www.instagram.com/",
+      "https://kr.linkedin.com/",
+      "https://www.facebook.com/?locale=ko_KR",
+      "https://x.com/?lang=ko",
+    ],
+  },
+];
+
+export const gallery = [
+  {
+    id: 1,
+    image: Gallery1,
+  },
+  {
+    id: 2,
+    image: Gallery2,
+  },
+  {
+    id: 3,
+    image: Gallery3,
+  },
+  {
+    id: 4,
+    image: Gallery4,
+  },
+
+  {
+    id: 5,
+    image: Gallery5,
+  },
+  {
+    id: 6,
+    image: Gallery6,
+  },
+  {
+    id: 7,
+    image: Gallery7,
+  },
+  {
+    id: 8,
+    image: Gallery8,
+  },
+  {
+    id: 9,
+    image: Gallery9,
+  },
+  {
+    id: 10,
+    image: Gallery10,
+  },
+  {
+    id: 11,
+    image: Gallery11,
+  },
+  {
+    id: 12,
+    image: Gallery12,
+  },
+  {
+    id: 13,
+    image: Gallery13,
+  },
+  {
+    id: 14,
+    image: Gallery14,
+  },
+  {
+    id: 15,
+    image: Gallery15,
   },
 ];
